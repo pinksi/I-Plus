@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background ="#ffffff"
+    tools:context="com.example.ubuntu.eyetest.ColorBlindness">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/cim1"
+    />
+     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textSize="20sp"
+        android:textColor="#FF0000"
+        android:id="@+id/aet"
+        android:inputType="number"
+        android:layout_marginTop="290dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:text="done"
+        android:id="@+id/cb2"
+        android:textSize="32sp"
+        android:textColor="#ffffff"
+        android:background="#4169E1"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="90dp" />
+</RelativeLayout>

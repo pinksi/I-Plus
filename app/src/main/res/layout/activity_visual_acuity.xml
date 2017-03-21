@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    tools:context="com.example.ubuntu.eyetest.VisualAcuity">
+<TextView
+    android:id="@+id/t1"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="center"
+    android:textColor="#000000"
+    />
+<EditText
+    android:id="@+id/et1"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:inputType="textEmailAddress"
+    android:layout_marginTop="230dp"
+   />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="done"
+        android:id="@+id/bbb1"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:background="#4169E1"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="10dp" />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="next"
+        android:id="@+id/bbb2"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:background="#4169E1"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="170dp" />
+
+
+</RelativeLayout>

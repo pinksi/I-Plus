@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eyetest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new_activity1">NewActivity1</string>
+    <string name="title_activity_new_activity2">NewActivity2</string>
+    <string name="title_activity_visual_acuity">VisualAcuity</string>
+    <string name="title_activity_color_blindness">ColorBlindness</string>
+    <string name="title_activity_astigmatism">Astigmatism</string>
+    <string name="title_activity_astigma">Astigma</string>
+    <string name="title_activity_lefteye">lefteye</string>
+    <string name="title_activity_astigma_result">AstigmaResult</string>
+    <string name="title_activity_visual_acuityleft">VisualAcuityleft</string>
+    <string name="title_activity_va_result">vaResult</string>
+    <string name="title_activity_cbresult">cbresult</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
